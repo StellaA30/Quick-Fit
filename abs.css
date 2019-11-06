@@ -2,19 +2,23 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: #5F7470;
 }
+.title {
+    text-align: center;
+    font-size: 50px;
+}
 .outertb {
     background: black; 
-    text-align: end;
+    text-align: center;
 }
 .taskbar {
     text-transform: uppercase;
     display: inline;
     padding: 0px 30px 0px 30px;
     font-size: 30px;
-    justify-content: right;
+    justify-content: center;
     background: black;
     background-position-x: cover;
-    background-position-y: 30px;
+    background-position-y: 40px;
 }
 .outervids {
     text-align: center;
