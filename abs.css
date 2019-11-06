@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5F7470;
+}
+.outertb {
+    background: black; 
+    text-align: end;
+}
+.taskbar {
+    text-transform: uppercase;
+    display: inline;
+    padding: 0px 30px 0px 30px;
+    font-size: 30px;
+    justify-content: right;
+    background: black;
+    background-position-x: cover;
+    background-position-y: 30px;
+}
+.outervids {
+    text-align: center;
+    padding: 75px 0px 20px 0px;
+}
+.vids {
+    display: inline;
+    padding: 0px 0px 0px 0px;
+}
+.love {
+    display: inline;
+}
+.lovein {
+    display: inline;
+    padding: 0px 180px 0px 180px;
+}
