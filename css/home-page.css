@@ -20,21 +20,9 @@ body {
     background-position-x: cover;
     background-position-y: 40px;
 }
-.outervids {
+.bodyimage {
     text-align: center;
-    padding: 75px 0px 20px 0px;
-}
-.vids {
-    display: inline;
-    padding: 0px 0px 0px 0px;
-}
-.love {
-    display: inline;
-    padding: 0px 20px 50px 20px;
-}
-.lovein {
-    display: inline;
-    padding: 0px 180px 50px 180px;
+    font-size: 30px;
 }
 .contact {
     text-align: start;
@@ -42,4 +30,3 @@ body {
     background-position-x: cover;
     background-position-y: 50px;
 }
-
