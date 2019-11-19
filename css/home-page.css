@@ -2,6 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: #2F242C;
     background: #E8E8E8;
+    display: flex;
 }
 .title {
     text-align: center;
@@ -10,6 +11,7 @@ body {
 .outertb {
     background: #C2B8B2; 
     text-align: center;
+    display: flex;
 }
 .taskbar {
     text-transform: uppercase;
@@ -19,6 +21,7 @@ body {
     justify-content: center;
     background-position-x: cover;
     background-position-y: 40px;
+    margin: auto;
 }
 .bodyimage {
     text-align: center;
@@ -29,4 +32,27 @@ body {
     background: #C2B8B2;
     background-position-x: cover;
     background-position-y: 50px;
+}
+.upload-vid {
+    margin: 20px 50px 20px 20px;
+}
+#custom-button {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #C2B8B2;
+    color: #2F242C;
+    border: 1px solid #2F242C;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#custom-button:hover {
+    background-color: green;
+}
+#custom-text {
+    margin-left: 10px;
+    color: grey;
+    font-size: 15px;
+}
+.upload-vid {
+    font-size: 30px;
 }
