@@ -4,10 +4,7 @@ body {
     background: #E8E8E8;
     display: flex;
 }
-.title {
-    text-align: center;
-    font-size: 50px;
-}
+
 .outertb {
     background: #C2B8B2; 
     text-align: center;
