@@ -1,7 +1,29 @@
 body {
     font-family: "Cabin", sans-serif;
     color: #f54291;
+    background-color: palevioletred;
 }
+
+/* container for the page */
+
+.container{
+    background: white;
+    border-radius: 10px;
+    border-color: violet;
+    box-shadow:0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    position: relative;
+    overflow: hidden;
+    margin: 6% auto;
+    width: 1168px;
+    height: 1000px;
+    max-width: 100% ;
+    min-height: 900px;
+   flex: right 200px;
+   align-items: center;
+
+}
+
+
 
 h1{
     text-align: center;
@@ -43,10 +65,10 @@ h3 {
     justify-content: row;
 }
 .tb-inner {
-    font-size: 20px;
+    font-size: 16px;
     border: 3px solid;
-    width: 130px;
-    border-radius: 30px;
+    width: 80px;
+    border-radius: 10px;
     display: inline-flex;
     padding: 15px;
     margin: 0px 30px 0px 30px;
@@ -62,4 +84,77 @@ h3 {
 }
 .mid {
     display: inline-flex;
+}
+
+
+
+
+
+
+/* Interactive Human Body */
+
+.human-body {
+    width: 207px;
+    position: relative;
+    padding-top: 240px;
+    height: 260px;
+    display: block;
+    margin: 40px auto;
+    top: 60px;
+    flex: left 20px;
+
+}
+.human-body svg:hover {
+    cursor: pointer;
+}
+.human-body svg:hover path {
+    fill: #ff7d16;
+}
+.human-body svg {
+    position: absolute;
+    left: 50%;
+    fill: #57c9d5;
+}
+.human-body svg.head {
+    margin-left: -28.5px;
+    top: -6px;
+}
+.human-body svg.shoulder {
+    margin-left: -53.5px;
+    top: 69px;
+}
+.human-body svg.arm {
+    margin-left: -78px;
+    top: 112px;
+}
+.human-body svg.cheast {
+    margin-left: -43.5px;
+    top: 88px;
+}
+.human-body svg.stomach {
+    margin-left: -37.5px;
+    top: 130px;
+}
+.human-body svg.legs {
+    margin-left: -46.5px;
+    top: 205px;
+    z-index: 9999;
+}
+.human-body svg.hands {
+    margin-left: -102.5px;
+    top: 224px;
+}
+#area {
+    display: block;
+    width: 100%;
+    clear: both;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Courier New;
+    color: #a5a5a5;
+}
+
+#area #data {
+    color: black;
 }
