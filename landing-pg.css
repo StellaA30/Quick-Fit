@@ -1,26 +1,6 @@
 body {
     font-family: "Cabin", sans-serif;
     color: #f54291;
-    background: pink;
-}
-
-/* This is the new layout of the page- something different feel free to edit*/
-
-.container{
-    background: white;
-    border-radius: 10px;
-    border-block-color: green;
-    border-color: violet;
-    box-shadow:0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-    position: relative;
-    overflow: hidden;
-    margin: 6% auto;
-    width: 1200px;
-    max-width: 100% ;
-    min-height: 400px;
-   flex: right 200px;
-   align-items: center;
-
 }
 
 h1{
@@ -82,61 +62,4 @@ h3 {
 }
 .mid {
     display: inline-flex;
-}
-
-
-
-
-/* This is the human body css */
-
-.human-body {
-    width: 207px;
-    position: relative;
-    padding-top: 240px;
-    height: 360px;
-    display: block;
-    margin: 40px auto;
-    top: 60px;
-    flex: left 20px;
-
-}
-.human-body svg:hover {
-    cursor: pointer;
-}
-.human-body svg:hover path {
-    fill: #ff7d16;
-}
-.human-body svg {
-    position: absolute;
-    left: 50%;
-    fill: #57c9d5;
-}
-.human-body svg.head {
-    margin-left: -28.5px;
-    top: -6px;
-}
-.human-body svg.shoulder {
-    margin-left: -53.5px;
-    top: 69px;
-}
-.human-body svg.arm {
-    margin-left: -78px;
-    top: 112px;
-}
-.human-body svg.cheast {
-    margin-left: -43.5px;
-    top: 88px;
-}
-.human-body svg.stomach {
-    margin-left: -37.5px;
-    top: 130px;
-}
-.human-body svg.legs {
-    margin-left: -46.5px;
-    top: 205px;
-    z-index: 9999;
-}
-.human-body svg.hands {
-    margin-left: -102.5px;
-    top: 224px;
 }
