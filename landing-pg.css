@@ -74,8 +74,9 @@ h3 {
     margin: 0px 30px 0px 30px;
     justify-content: center;
 }
+
 .sign-up {
-    border: 2px solid black;
+    border: 1px solid pink;
     margin: 20px;
     border-radius: 30px;
     width: 300px;
@@ -91,6 +92,31 @@ h3 {
 
 
 
+  .divs {
+    border: 1px solid pink;
+    background-color: powderblue;
+    float: left;
+    margin: 20px;
+    border-radius: 30px;
+    width: 300px;
+    height: 450px;
+  }
+
+
+
+.new_year {
+        position: absolute;
+        color: yellow;
+        opacity: .6;
+        right: -55px;
+        top: 385px;
+        font-size: 2.3em;
+        white-space: nowrap;
+        transform: rotate(90deg);
+}
+
+
+
 /* Interactive Human Body */
 
 .human-body {
@@ -100,7 +126,7 @@ h3 {
     height: 260px;
     display: block;
     margin: 40px auto;
-    top: 60px;
+    top: 0px;
     flex: left 20px;
 
 }
@@ -113,7 +139,7 @@ h3 {
 .human-body svg {
     position: absolute;
     left: 50%;
-    fill: #57c9d5;
+    fill: palevioletred;
 }
 .human-body svg.head {
     margin-left: -28.5px;
@@ -126,6 +152,7 @@ h3 {
 .human-body svg.arm {
     margin-left: -78px;
     top: 112px;
+    
 }
 .human-body svg.cheast {
     margin-left: -43.5px;
