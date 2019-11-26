@@ -55,11 +55,12 @@ h3 {
 .sign-up {
     border: 2px solid black;
     margin: 20px;
-    border-radius: 30px;
-    width: 300px;
-    height: 450px;
+    justify-content: end;
 
 }
 .mid {
     display: inline-flex;
+}
+form {
+    display: column;
 }
