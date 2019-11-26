@@ -24,6 +24,19 @@ body {
 }
 
 
+#background {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 50%;
+    height: 100%;
+    background: yellow;
+    -webkit-clip-path: polygon(52% 0, 100% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(52% 0, 100% 0, 100% 100%, 0% 100%);
+    z-index: -1;
+    transition: all .8s ease;
+  }
+
 
 h1{
     text-align: center;
@@ -35,6 +48,8 @@ h1{
     font-size: 40px;
     margin: -20px 0px 0px 0px;
     color: #6d0c74;
+    transition: all 1s ease;
+
 }
 h3 {
     text-align: center;
@@ -89,9 +104,6 @@ h3 {
 
 
 
-
-
-
   .divs {
     border: 1px solid pink;
     background-color: powderblue;
@@ -108,7 +120,7 @@ h3 {
         position: absolute;
         color: yellow;
         opacity: .6;
-        right: -55px;
+        right: -145px;
         top: 385px;
         font-size: 2.3em;
         white-space: nowrap;
@@ -134,7 +146,7 @@ h3 {
     cursor: pointer;
 }
 .human-body svg:hover path {
-    fill: #ff7d16;
+    fill: blue;
 }
 .human-body svg {
     position: absolute;
