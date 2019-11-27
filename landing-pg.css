@@ -23,6 +23,7 @@ body {
 
 }
 
+/* styling for the background */
 
 #background {
     position: fixed;
@@ -36,6 +37,8 @@ body {
     z-index: -1;
     transition: all .8s ease;
   }
+
+  /* styling for text on page */
 
 
 h1{
@@ -57,6 +60,9 @@ h3 {
     justify-content: center;
 }
 
+
+  /* styling for buttons */
+
 .bottom {
     background-color: #f54291;
     text-align: center;
@@ -64,6 +70,10 @@ h3 {
     text-transform: uppercase;
     font-size: 100px;
 }
+
+
+  /* images */
+
 
 .cyclist {
     justify-content: left;
@@ -73,12 +83,20 @@ h3 {
     width: 700px;
     height: 525px;
 }
+
+
+
+  /* ------- */
+
 .taskbar {
     text-align: center;
     justify-content: center;
     flex-direction: row;
     justify-content: row;
 }
+
+  /* ----------- */
+
 .tb-inner {
     font-size: 16px;
     border: 3px solid;
@@ -89,6 +107,9 @@ h3 {
     margin: 0px 30px 0px 30px;
     justify-content: center;
 }
+
+
+  /* ------- */
 
 .sign-up {
     border: 1px solid pink;
@@ -104,7 +125,7 @@ h3 {
 
 
 
-  .divs {
+.divs {
     border: 1px solid pink;
     background-color: powderblue;
     float: left;
@@ -126,6 +147,16 @@ h3 {
         white-space: nowrap;
         transform: rotate(90deg);
 }
+
+
+
+
+
+
+
+
+
+
 
 
 /* Interactive Human Body */
