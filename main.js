@@ -1,3 +1,4 @@
+/* sidenav */
 function opensidenav() {
     document.getElementById('sidenav').style.left="0px";
     document.getElementById('openbutton').style.display="none";
