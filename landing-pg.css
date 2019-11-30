@@ -114,9 +114,7 @@ h3 {
 .sign-up {
     border: 1px solid pink;
     margin: 20px;
-    border-radius: 30px;
-    width: 300px;
-    height: 450px;
+    justify-content: end;
 
 }
 .mid {

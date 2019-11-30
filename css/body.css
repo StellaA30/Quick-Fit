@@ -1,0 +1,107 @@
+
+.human-body {
+    width: 207px;
+    position: relative;
+    padding-top: 240px;
+    height: 260px;
+    display: block;
+    margin: 40px auto;
+    top: 0px;
+    flex: left 20px;
+
+}
+.human-body svg:hover {
+    cursor: pointer;
+}
+.human-body svg:hover path {
+    fill: yellow;
+}
+.human-body svg {
+    position: absolute;
+    left: 50%;
+    fill: palevioletred;
+}
+.human-body svg.head {
+    margin-left: -28.5px;
+    top: -6px;
+}
+.human-body svg.shoulder {
+    margin-left: -53.5px;
+    top: 69px;
+}
+.human-body svg.arm {
+    margin-left: -78px;
+    top: 112px;
+    
+}
+.human-body svg.cheast {
+    margin-left: -43.5px;
+    top: 88px;
+}
+.human-body svg.stomach {
+    margin-left: -37.5px;
+    top: 130px;
+}
+.human-body svg.legs {
+    margin-left: -46.5px;
+    top: 205px;
+    z-index: 9999;
+}
+.human-body svg.hands {
+    margin-left: -102.5px;
+    top: 224px;
+}
+#area {
+    display: block;
+    width: 100%;
+    clear: both;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Courier New;
+    color: #a5a5a5;
+}
+
+#area #data {
+    color: black;
+}
+
+/*Modal practice*/
+.modal {
+  display: none; 
+  z-index: 1;
+  top: 0;
+  overflow: auto; 
+  text-align: center;
+}
+
+/* Head Modal Content/Box */
+.head-modal-content {
+
+  padding: 5px;
+  margin: 15% auto;
+  width: auto; 
+  display: center;
+}
+
+/* The Close Button */
+.close {
+  color: palevioletred;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* image format */
+img {
+    border-radius: 20px;
+    display: block;
+    text-align: center;
+}
+
