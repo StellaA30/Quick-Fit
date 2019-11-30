@@ -2,7 +2,7 @@
     //Head Click & Close
     function openHead() {
       var headModalElement = document.getElementById ("headModalId")
-      headModalElement.style.display = "block"
+      headModalElement.style.display = "inline"
     }
     function closeHead() {
         var headModalElement = document.getElementById ("headModalId")

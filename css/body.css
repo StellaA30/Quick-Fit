@@ -1,13 +1,93 @@
+body {
+    font-family: "Cabin", sans-serif;
+    color: #f54291;
+    background-color: palevioletred;
+}
 
+/* styling for the background */
+
+#background {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 50%;
+    height: 100%;
+    background: yellow;
+    -webkit-clip-path: polygon(52% 0, 100% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(52% 0, 100% 0, 100% 100%, 0% 100%);
+    z-index: -1;
+    transition: all .8s ease;
+  }
+
+  /* container for the page */
+
+.container{
+    background: white;
+    border-radius: 10px;
+    border-color: violet;
+    box-shadow:0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    position: relative;
+    overflow: auto;
+    margin: 6% auto;
+    width: 1168px;
+    height: 1000px;
+    max-width: 100% ;
+    min-height: 900px;
+    flex: right 200px;
+    align-items: center;
+
+}
+/*title*/
+h1{
+    text-align: center;
+    font-size: 60px;
+    margin: 0px 20px;
+    justify-content: center;
+}
+.fit {
+    font-size: 40px;
+    margin: -20px 0px 0px 0px;
+    color: #6d0c74;
+    transition: all 1s ease;
+
+}
+/* navbar*/
+.taskbar {
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: row;
+}
+
+.tb-inner {
+    font-size: 16px;
+    border: 3px solid;
+    width: 80px;
+    border-radius: 10px;
+    display: inline-flex;
+    padding: 15px;
+    margin: 0px 30px 0px 30px;
+    justify-content: center;
+}
+
+/*text below navbar*/
+
+#exln {
+    text-align: center;
+    justify-content: center;
+    flex-wrap: center;
+    font-size: 20px;
+}
+
+  /* ----------- */
 .human-body {
     width: 207px;
+    text-align: left;
+    padding-top: 300px;
     position: relative;
-    padding-top: 240px;
     height: 260px;
-    display: block;
-    margin: 40px auto;
-    top: 0px;
-    flex: left 20px;
+    margin: 10px 10px 10px 20px;
+    top: 0px
 
 }
 .human-body svg:hover {
@@ -66,17 +146,18 @@
     color: black;
 }
 
-/*Modal practice*/
+/*Modal */
 .modal {
   display: none; 
   z-index: 1;
+  position: fixed;
   top: 0;
   overflow: auto; 
   text-align: center;
 }
 
 /* Head Modal Content/Box */
-.head-modal-content {
+.modal-content {
 
   padding: 5px;
   margin: 15% auto;
@@ -90,6 +171,7 @@
   float: right;
   font-size: 28px;
   font-weight: bold;
+  padding: 5px;
 }
 
 .close:hover,
@@ -98,10 +180,10 @@
   text-decoration: none;
   cursor: pointer;
 }
+
 /* image format */
 img {
     border-radius: 20px;
-    display: block;
     text-align: center;
 }
 
