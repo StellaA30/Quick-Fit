@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="Sign_up_form.css">
+
+    <title>Slider Sign in/Sign Up <Form></Form></title>
+</head>
+<body>
+    
+<!--form container + id container for javascript -->
+
+
+<!--create account form with sign up container-->
+
+        <div class="container" id="container">
+                <div class="form-container sign-up-container">
+                    <form action="#">
+                        <h1>Create Account</h1>
+                        <div class="social-container"> <!--social icons container -->
+
+                            <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                            <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                        <span>or use your email for registration</span> <!--input fields -->
+                        <input type="text" placeholder="Name" />
+                        <input type="email" placeholder="Email" />
+                        <input type="password" placeholder="Password" />
+                        <button> <h1>Sign Up</h1></button>
+                    </form>
+                </div>
+
+
+<!--sign in form with sign in container -->
+
+                <div class="form-container sign-in-container">
+                    <form action="#">
+                        <h1>Sign in</h1>
+                        <div class="social-container"> <!--social icons container -->
+                            <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                            <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                        <span>or use your account</span>
+                        <input type="email" placeholder="Email" />
+                        <input type="password" placeholder="Password" />
+                        <a href="#">Forgot your password?</a> <!--forgort password link -->
+                        <button>Sign In</button>
+                    </form>
+                </div>
+
+ <!--Overlay container with overlay panels that hold the content-->
+ <!--Each panel has overlay lef and overlay right -->
+
+
+                <div class="overlay-container">
+                    <div class="overlay">
+                        <div class="overlay-panel overlay-left">
+                            <h1>Welcome Back!</h1>
+                            <p>To keep connected with us please login with your personal info</p>
+                            <button class="ghost" id="signIn">Sign In</button>
+                        </div>
+                        <div class="overlay-panel overlay-right">
+                            <h1>Hello, Friend!</h1>
+                            <p>Enter your personal details and start journey with us</p>
+                            <button class="ghost" id="signUp">Sign Up</button> <!--each button has an id - we can target with Javascript-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <script src="main.js"></script>  <!--javascript -->
+
+            
+
+
+            <footer>
+        
+            </footer>
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
