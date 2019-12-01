@@ -1,9 +1,15 @@
 
     //Head Click & Close
+   
     function openHead() {
-      var headModalElement = document.getElementById ("headModalId")
-      headModalElement.style.display = "inline"
+        document.getElementById("starter").style.display = "none"
+        document.getElementById("legsModalId").style.display = "none"
+        document.getElementById("absModalId").style.display = "none"
+        document.getElementById("armsModalId").style.display = "none"
+        document.getElementById("headModalId").style.display = "block"
+        
     }
+   
     function closeHead() {
         var headModalElement = document.getElementById ("headModalId")
         headModalElement.style.display = "none"
@@ -11,8 +17,11 @@
     
     //Arms click & close
     function openArms() {
-        var armsModalElement = document.getElementById ("armsModalId")
-        armsModalElement.style.display = "block"
+        document.getElementById("starter").style.display = "none"
+        document.getElementById("headModalId").style.display = "none"
+        document.getElementById("legsModalId").style.display = "none"
+        document.getElementById("absModalId").style.display = "none"
+        document.getElementById("armsModalId").style.display = "block"
     }
     function closeArms() {
         var armsModalElement = document.getElementById ("armsModalId")
@@ -21,8 +30,11 @@
 
     //Abs click & close
     function openAbs() {
-        var absModalElement = document.getElementById ("absModalId")
-        absModalElement.style.display = "block"
+        document.getElementById("starter").style.display = "none"
+        document.getElementById("headModalId").style.display = "none"
+        document.getElementById("armsModalId").style.display = "none"
+        document.getElementById("legsModalId").style.display = "none"
+        document.getElementById("absModalId").style.display = "block"
     }
     function closeAbs() {
         var absModalElement = document.getElementById ("absModalId")
@@ -30,13 +42,14 @@
     }
     //legs click & close
     function openLegs() {
-        var legsModalElement = document.getElementById ("legsModalId")
-        legsModalElement.style.display = "block"
+        document.getElementById("starter").style.display = "none"
+        document.getElementById("headModalId").style.display = "none"
+        document.getElementById("armsModalId").style.display = "none"
+        document.getElementById("absModalId").style.display = "none"
+        document.getElementById("legsModalId").style.display = "block"
     }
     function closeLegs() {
         var legsModalElement = document.getElementById ("legsModalId")
         legsModalElement.style.display = "none"
     }
-
-
 

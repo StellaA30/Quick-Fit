@@ -13,20 +13,9 @@
     <div>
         <h1>QUICK <div class=fit><b>FIT</b></div></h1>
     </div>
-    
-    <div class="taskbar">
-        <ul>
-                <li class="tb-inner"><a href="index.html"></a>Home</li>
-                <li class="tb-inner">About</li>
-                <li class="tb-inner">Quick 5</li>
-                <li class="tb-inner">Contact Us</li>
-                <li class="tb-inner"><a href="sign-up-form.html"></a>Sign Up</li>
-        </ul>
-    </div>
-    <div>
-        <p id="exln">Click on the body part you want to work on!</p>
-    </div>
 
+
+    <div class="together">
     <div class="human-body-outside">
                 <div class="human-body">
                         <svg onclick="openHead()" data-position="head" class="head" xmlns="http://www.w3.org/2000/svg" width="56.594" height="95.031" viewBox="0 0 56.594 95.031"><path d="M15.92 68.5l8.8 12.546 3.97 13.984-9.254-7.38-4.622-15.848zm27.1 0l-8.8 12.546-3.976 13.988 9.254-7.38 4.622-15.848zm6.11-27.775l.108-11.775-21.16-14.742L8.123 26.133 8.09 40.19l-3.24.215 1.462 9.732 5.208 1.81 2.36 11.63 9.72 11.018 10.856-.324 9.56-10.37 1.918-11.952 5.207-1.81 1.342-9.517zm-43.085-1.84l-.257-13.82L28.226 11.9l23.618 15.755-.216 10.37 4.976-17.085L42.556 2.376 25.49 0 10.803 3.673.002 24.415z"/></svg>
@@ -39,38 +28,72 @@
                     </div>
 
             </div>
+
+            <div class="image-box">
+                <div id="image-box-content">
+                        <p id="starter">Click on the body part to start your workout!</p>
+                        <div id="headModalId" class="modal">
+                                        <div class="modal-content">
+                                                <h3>HEAD / MIND</h3>
+                                                <p class="intro-cont">In order for your workout ot work to its full potential you must clear your mind first</p>
+                                                <ol class="img-box-list">
+                                                        <li>Enjoy a brisk walk</li>
+                                                        <li>Take deep breaths</li>
+                                                        <li>Take a dog with you (optional)</li>
+                                                </ol>
+                                                <img src="Images/dogwalking .gif">
+                                                    
+                                                    
+                                        </div>
+                        </div>
+                        <div id="armsModalId" class="modal">
+                                                <div class="modal-content">
+                                                        <h3>ARMS</h3>
+                                                        <p class="intro-cont">Have you ever been unable to take the lid off of a jar? It's good to keep those arms strong!</p>
+                                                        <ol class="img-box-list">
+                                                                <li>Find a sturdy chair</li>
+                                                                <li>Fingertips facing forward</li>
+                                                                <li>Keep your abs tight!</li>
+                                                        </ol>
+                                                        <img alt="woman doing benchpress" src="Images/office-workout.gif">
+                                                        
+                                                </div>
+                            
+                        </div>
+                            
+                        <div id="absModalId" class="modal">
+                                                <div class="modal-content">
+                                                        <h3>ABDOMINALS</h3>
+                                                        <p class="intro-cont">Your abs are the centre of your body - keep them strong and the rest will follow...</p>
+                                                        <ol class="img-box-list">
+                                                                <li>Lie flat on your back</li>
+                                                                <li>Breathe out as you sit up</li>
+                                                                <li>Breathe in as you go back down</li>
+                                                        </ol>
+                                                        <img alt="woman doing sit-ups" src="Images/abs.gif">
+                                                </div>
+                            
+                        </div>
+                        <div id="legsModalId" class="modal">
+                                                <div class="modal-content">
+                                                        <h3>LEGS</h3>
+                                                        <p class="intro-cont">Dread the sight of stairs? - Must have been LEG DAY</p>
+                                                        <ol class="img-box-list">
+                                                                <li>Lie on your side</li>
+                                                                <li>Keep your abs tight</li>
+                                                                <li>Lift the top leg up and down</li>   
+                                                                <li>Treat yourself to a carrot (optional)</li>
+                                                        </ol>
+                                                        <img alt="carrot working-out" src="Images/workout_carrot.gif">
+                                                        
+                                                </div>
+                            
+                        </div>
+                </div>
+            </div>
+
+
             
-            
-            <div id="headModalId" class="modal">
-                    <div class="modal-content">
-                                <span onclick="closeHead()" class="close">&times;</span>
-                                <img src="Images/dogwalking .gif">
-                    </div>
-            </div>
-
-
-            <div id="armsModalId" class="modal">
-                    <div class="modal-content">
-                            <span onclick="closeArms()" class="close">&times;</span>
-                            <img src="Images/office-workout.gif">
-                    </div>
-
-            </div>
-
-            <div id="absModalId" class="modal">
-                    <div class="modal-content">
-                            <span onclick="closeAbs()" class="close">&times;</span>
-                            <img src="Images/abs.gif">
-                    </div>
-
-            </div>
-            <div id="legsModalId" class="modal">
-                    <div class="modal-content">
-                            <span onclick="closeLegs()" class="close">&times;</span>
-                            <img src="Images/workout_carrot.gif">
-                    </div>
-
-            </div>
-
+        </div>
  </div>
 </body>
