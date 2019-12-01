@@ -64,7 +64,8 @@ h1{
 }
 
 .together {
-    display: flex;
+    display: inline-flex;
+    justify-content: center;
 }
 
   /* ----------- */
@@ -150,12 +151,12 @@ h3 {
     font-size: 50%;
 }
 .intro-cont {
-    margin: 0 2px 2px 2px;
-    font-size: 40%;
+    margin: 5%;
+    font-size: 44%;
 }
 .img-box-list {
-    margin: 2px 2px 1px 2px;
-    font-size: 35%;
+    margin: 5%;
+    font-size: 40%;
 }
 /* image format */
 img {
