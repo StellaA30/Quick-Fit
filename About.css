@@ -1,0 +1,236 @@
+for the box to write 
+
+}
+    
+#make{
+    text-align: center;
+    color: white;
+}
+    .contain{
+        background-image: url(https://fitness-nation.net/wp-content/uploads/2015/09/group-workout-classes-fitness-nation-arlington-bedford1.jpg);
+        background-size: cover;
+        
+        border-radius: 10px;
+        border-color: violet;
+        box-shadow:0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+        position: relative;
+        overflow: hidden;
+        margin: 6% auto;
+        width: 1200px;
+        height: 1500px;
+        max-width: 1200px ;
+        min-height: 1500px;
+       flex: right 200px;
+       align-items: center;
+    
+    }
+    /* styling for the background */
+    
+    #background {
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+        width: 50%;
+        height: 100%;
+        background: yellow;
+        -webkit-clip-path: polygon(52% 0, 100% 0, 100% 100%, 0% 100%);
+      clip-path: polygon(52% 0, 100% 0, 100% 100%, 0% 100%);
+        z-index: -1;
+        transition: all .8s ease;
+      }
+    
+      /* styling for text on page */
+    
+    
+    h1{
+        text-align: center;
+        font-size: 60px;
+        margin: 0px 20px;
+        justify-content: center;
+    }
+    .fit {
+        font-size: 40px;
+        margin: -20px 0px 0px 0px;
+        color: #6d0c74;
+        transition: all 1s ease;
+    
+    }
+    h3 {
+        text-align: center;
+        color: #6d0c74;
+        justify-content: center;
+    }
+    
+    
+      /* styling for buttons */
+    
+    .bottom {
+        background-color: #f54291;
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+        font-size: 100px;
+    }
+    
+    
+      /* images */
+    
+    
+    .cyclist {
+        justify-content: center;
+        display: flex;
+        padding: 0px;
+        margin: 0px 0px 0px -120px;
+        width: 700px;
+        height: 525px;
+    }
+    
+    
+    
+      /* ------- */
+    
+    .taskbar {
+        text-align: center;
+        justify-content: center;
+        flex-direction: row;
+        justify-content: row;
+    }
+    
+      /* ----------- */
+    
+    .tb-inner {
+        font-size: 16px;
+        border: 3px solid;
+        width: 80px;
+        border-radius: 10px;
+        display: inline-flex;
+        padding: 15px;
+        margin: 0px 30px 0px 30px;
+        justify-content: center;
+    }
+    
+    
+      /* ------- */
+    
+    .sign-up {
+        border: 1px solid pink;
+        margin: 20px;
+        border-radius: 30px;
+        width: 300px;
+        height: 450px;
+    
+    }
+    .mid {
+        display: inline-flex;
+    }
+    
+    
+    
+    .divs {
+        border: 1px solid pink;
+        background-color: powderblue;
+        float: left;
+        margin: 20px;
+        border-radius: 30px;
+        width: 300px;
+        height: 450px;
+      }
+    
+    
+    
+    .new_year {
+            position: absolute;
+            color: yellow;
+            opacity: .6;
+            right: -145px;
+            top: 385px;
+            font-size: 2.3em;
+            white-space: nowrap;
+            transform: rotate(90deg);
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /* Interactive Human Body */
+    
+    .human-body {
+        width: 207px;
+        position: relative;
+        padding-top: 240px;
+        height: 260px;
+        display: block;
+        margin: 40px auto;
+        top: 0px;
+        flex: left 20px;
+    
+    }
+    .human-body svg:hover {
+        cursor: pointer;
+    }
+    .human-body svg:hover path {
+        fill: blue;
+    }
+    .human-body svg {
+        position: absolute;
+        left: 50%;
+        fill: palevioletred;
+    }
+    .human-body svg.head {
+        margin-left: -28.5px;
+        top: -6px;
+    }
+    .human-body svg.shoulder {
+        margin-left: -53.5px;
+        top: 69px;
+    }
+    .human-body svg.arm {
+        margin-left: -78px;
+        top: 112px;
+        
+    }
+    .human-body svg.cheast {
+        margin-left: -43.5px;
+        top: 88px;
+    }
+    .human-body svg.stomach {
+        margin-left: -37.5px;
+        top: 130px;
+    }
+    .human-body svg.legs {
+        margin-left: -46.5px;
+        top: 205px;
+        z-index: 9999;
+    }
+    .human-body svg.hands {
+        margin-left: -102.5px;
+        top: 224px;
+    }
+    #area {
+        display: block;
+        width: 100%;
+        clear: both;
+        padding: 10px;
+        text-align: center;
+        font-size: 25px;
+        font-family: Courier New;
+        color: #a5a5a5;
+    }
+    
+    #area #data {
+        color: black;
+    }
+
+.parent.d
+
+.para{
+    text-align: center;
+}

@@ -12,31 +12,26 @@
          <div id="background"></div>
             <div class="container" id="container">
 
+        <div class="sidenav" id="sidenav">
+            <button type="button" name="button" id="closenav" onclick="closesidenav()">x</button>
+            <a href="index.html">Home</a>
+            <a href="About.html">About us</a>
+            <a href="">Body</a>
+            <a href="sign-up.html">Sign up</a>
+        </div>
+        <div class="content">
+            <button type="button" name="button" onclick="opensidenav()" id="openbutton">
+                <div class="menu"></div>
+                <div class="menu"></div>
+                <div class="menu"></div></button>
+        </div>
         <div>
-            <h1>QUICK <div class=fit><b>FIT</b></div></h1>
+            <h1>QUICK <div class=fit><b>FIT</b></div></h1> 
         </div>
 
-
-        <div class="taskbar">
-                <ul>
-                    <li class="tb-inner">Home</li>
-                    <li class="tb-inner">About</li>
-                    <li class="tb-inner">Quick 5</li>
-                    <li class="tb-inner">Contact Us</li>
-                    <li class="tb-inner">Sign In</li>
-                </ul>
-        </div>
 
 <!--How can we add links to pages to the lists above?-->
         <div id="container">
-                <div id="nav">
-                    <nav class="navbar">
-                      <a href="index.html">Home</a>
-                      <a href="#">About</a>
-                      <a href="sign-up-form.html">Sign In</a>
-                      <a href="Progress.html">Progress</a>
-                      <a href="page_ideas.html">Landing page ideas</a>
-                    </nav>
 
                     <h1 class="new_year"> new  year new you!</h1>
 
@@ -61,8 +56,20 @@
 
         <div class="mid">
                 <div class="cyclist"> 
-                    <img alt="Woman cycling" src="womanCycling.gif">
+                        <img alt="Woman cycling" src="womanCycling.gif">
                 </div>
+            
+                <div class="hero"></div>
+                <div class="form-box">
+                    <p>Sign-up to our newsletter!</p>
+                    <form id="login" class="input-group">
+                        <input type="text" class="input-field" placeholder="First Name" required>
+                        <input type="text" class="input-field" placeholder="Surname" required>
+                        <input type="text" class="input-field" placeholder="Email" required>
+                        <input type="checkbox" class="check-box"><span>I agree to the terms & conditions</span>
+                        <button type="submit" class="submit-btn">SUBMIT</button>
+                    </form>
+
 
 
 

@@ -1,0 +1,202 @@
+body {
+    font-family: "Cabin", sans-serif;
+    color: #f54291;
+    background-color: palevioletred;
+}
+
+/* styling for the background */
+
+#background {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 50%;
+    height: 100%;
+    background: yellow;
+    -webkit-clip-path: polygon(52% 0, 100% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(52% 0, 100% 0, 100% 100%, 0% 100%);
+    z-index: -1;
+    transition: all .8s ease;
+  }
+
+  /* container for the page */
+
+.container{
+    background: white;
+    border-radius: 10px;
+    border-color: violet;
+    box-shadow:0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    position: relative;
+    overflow: auto;
+    margin: 6% auto;
+    width: 1168px;
+    height: 1000px;
+    max-width: 100% ;
+    min-height: 900px;
+    flex: right 200px;
+    align-items: center;
+
+}
+/*title*/
+h1{
+    text-align: center;
+    font-size: 60px;
+    margin: 0px 20px;
+    justify-content: center;
+}
+.fit {
+    font-size: 40px;
+    margin: -20px 0px 0px 0px;
+    color: #6d0c74;
+    transition: all 1s ease;
+
+}
+/* navbar - to be added!!!*/
+
+
+/*text below navbar*/
+
+#exln {
+    text-align: center;
+    justify-content: center;
+    flex-wrap: center;
+    font-size: 20px;
+}
+
+.together {
+    display: inline-flex;
+    justify-content: center;
+}
+
+  /* ----------- */
+.human-body {
+    height: 260px;
+    margin: 50px;
+    top: 0px;
+    position: relative;
+    display: inline-flex;
+    padding: 150px;
+
+}
+.human-body svg:hover {
+    cursor: pointer;
+}
+.human-body svg:hover path {
+    fill: yellow;
+}
+.human-body svg {
+    position: absolute;
+    left: 50%;
+    fill: palevioletred;
+}
+.human-body svg.head {
+    margin-left: -28.5px;
+    top: -6px;
+}
+.human-body svg.shoulder {
+    margin-left: -53.5px;
+    top: 69px;
+}
+.human-body svg.arm {
+    margin-left: -78px;
+    top: 112px;
+    
+}
+.human-body svg.cheast {
+    margin-left: -43.5px;
+    top: 88px;
+}
+.human-body svg.stomach {
+    margin-left: -37.5px;
+    top: 130px;
+}
+.human-body svg.legs {
+    margin-left: -46.5px;
+    top: 205px;
+}
+.human-body svg.hands {
+    margin-left: -102.5px;
+    top: 224px;
+}
+#area {
+    display: block;
+    width: 100%;
+    clear: both;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Courier New;
+    color: #a5a5a5;
+}
+
+#area #data {
+    color: black;
+}
+
+.image-box {
+    border: #f54291 solid 3px;
+    width: 38%;
+    height: 70%;
+    margin: 50px;
+    border-radius: 20px;
+    display: inline-flex;
+    padding: 20px;
+    font-size: 30px;
+}
+h3 {
+    text-align: center;
+    justify-content: center;
+    color: #6d0c74;
+    margin: 0;
+    font-size: 50%;
+}
+.intro-cont {
+    margin: 5%;
+    font-size: 44%;
+}
+.img-box-list {
+    margin: 5%;
+    font-size: 40%;
+}
+/* image format */
+img {
+    border-radius: 20px;
+    text-align: center;
+    width: 80%;
+    display: inline-flex;
+    margin: 10%;
+}
+
+
+/*Modal */
+.modal {
+  display: none; 
+  z-index: 1;
+  top: 0;
+  overflow: auto; 
+}
+
+/* Head Modal Content/Box */
+.modal-content {
+  align-self: center;
+}
+
+/* The Close Button */
+.close {
+  color: palevioletred;
+  float: left;
+  font-size: 60px;
+  font-weight: bold;
+  padding: 1px;
+  margin: 0;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+

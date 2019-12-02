@@ -114,9 +114,7 @@ h3 {
 .sign-up {
     border: 1px solid pink;
     margin: 20px;
-    border-radius: 30px;
-    width: 300px;
-    height: 450px;
+    justify-content: end;
 
 }
 .mid {
@@ -147,17 +145,6 @@ h3 {
         white-space: nowrap;
         transform: rotate(90deg);
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /* Interactive Human Body */
 
@@ -226,4 +213,52 @@ h3 {
 
 #area #data {
     color: black;
+}
+
+/* sidenav */
+
+.sidenav {
+    left: -200px;
+    width: 200px;
+    height: 100%;
+    position: absolute;
+    background-color: black;
+    transition: .5s;
+}
+.sidenav a{
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+}
+.sidenav a:hover{
+    background-color: #f54291;  
+}
+.sidenav button{
+    margin-left: 165px;
+    background-color: transparent;
+    color: #ffffff;
+    border: none;
+    font-size: 30px;
+}
+.sidenav button:hover{
+    cursor: pointer;
+    color: #f54291;
+}
+.content{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.content button{
+    font-size: 30px;
+}
+.content button:hover{
+    cursor: pointer;
+}
+.menu{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
 }

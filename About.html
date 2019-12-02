@@ -4,38 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="landing-pg.css">
+    <link rel="stylesheet" type="text/css" href="About.css">
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="landing-pg.css">
+    <script type="text/javascript" src="body.js"></script>
+    <script src="main.js"></script>
 
-    <title>About</title>
+    <link href="https://fonts.googleapis.com/css?family=Cabin&display=swap" rel="stylesheet">
 </head>
 
-<header>
-
-</header>
 <body>
-        <div class="container" id="container">
-                    <div id="container">
-                            <div id="nav">
-                                <nav class="navbar">
-                                  <a href="index.html">Home</a>
-                                  <a href="#">About</a>
-                                  <a href="sign-up-form.html">Sign In</a>
-                                  <a href="Progress.html">Progress</a>
-                                  <a href="landing_page_ideas.html">Landing page ideas</a>
-        
-        
-                                </nav>
-                                
-        
-                        <img src="funny_burger.jpg" alt="">
+  <div id="background"></div>
+ <div class="container" id="container">
+    <div class="sidenav" id="sidenav">
+        <button type="button" name="button" id="closenav" onclick="closesidenav()">x</button>
+        <a href="index.html">Home</a>
+        <a href="About.html">About us</a>
+        <a href="">Body</a>
+        <a href="sign-up.html">Sign up</a>
+    </div>
+    <div class="content">
+        <button type="button" name="button" onclick="opensidenav()" id="openbutton">
+            <div class="menu"></div>
+            <div class="menu"></div>
+            <div class="menu"></div></button>
+    </div>  
 
-
+      <h1>WELCOME</h1>
+      <img src="https://t4.ftcdn.net/jpg/02/57/27/91/240_F_257279117_HAuRiHXo7RQNp79Vb4p0T4krU2SObAii.jpg" alt="Cinque Terre" width="100%" height="400">
     
-                        <footer id="main-footer">
-                                <p> Copyright &copy; 2019, Quick Fit </p>
-                              </footer>
-            
-                              <script src="main.js"></script>
+      <div class="bottomleft">
+        <h1>About Us</h1>
+    <p>
+        Welcome to Quick-Fit, an independent global fitness resource created for your daily “quick-sweat.” 
+        We know how busy you are,
+         so we have created this website specifically with 5 minutes workouts targeting your arms, 
+         legs, abs and your entire body.
+    </p>
+    <p >
+        For best results, we recommend that you do each of our workouts 2-3 times a week
+         and rotate them to keep your body guessing for better result.
+          You can pick workouts at random or you can focus on something specific by creating your own routine. 
+          To challenge yourself, you can try using dumbbells where necessary to maximise the impact of the workout.
+    </p>
+    <p >
+        Don’t forget to sign up to our page and share the website with your loved one, 
+        have fun training and welcome to Quick Fit!
+    </p>
+      </div>
+  
+  <footer id="footer">
+      <p> Copyright &copy; 2019, Quick Fit </p>
+    </footer>
+    </div>
+  
+    
 
 </body>
 </html>
