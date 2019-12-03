@@ -339,6 +339,10 @@ button.ghost {
 .menu{
     width: 35px;
     height: 5px;
-    background-color: black;
+    background-color: palevioletred;
     margin: 6px 0;
+}
+#openbutton{
+    background-color: transparent;
+    border: none;
 }
