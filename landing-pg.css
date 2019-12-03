@@ -112,9 +112,13 @@ h3 {
     border: 3px bold black;
 
 }*/
-#title {
-    transition: all 1s ease;
-  }
+#sidenav{
+    background-color: rgb(241, 125, 236);
+    color:blue;
+    position: absolute;
+    z-index: 900;
+
+}
 /* woman cycling */
 
 .img-circular{
@@ -127,8 +131,8 @@ h3 {
     border: 5px black;
     background-image: url('womanCycling.gif');
     background-size: cover;
-    border: 5px dotted purple;
-    box-shadow: 0px 0px 0px 10px yellow;
+    border: 5px dotted rgb(235, 8, 235);
+    box-shadow: 0px 0px 0px 10px  yellow;
     border-radius: 50%;
     -webkit-border-radius: 100px;
     -moz-border-radius: 100px;
@@ -149,6 +153,7 @@ h3 {
    
 .fit{
     position: relative;
+    top: -45px;
     z-index:1;
 }
 .landing-box-2{
@@ -168,7 +173,7 @@ h3 {
 }
 
 #landing-button{
-    background-color: rgb(236, 20, 226);
+    background-color: rgb(241, 125, 236);
     border: 5px solid black;
     color:white;
     width: 800px;
@@ -185,6 +190,8 @@ h3 {
     width: 100px;
 }
 .blinking{
+    position: relative;
+top: -50px;    
     animation:blinkingText 0.8s infinite;
     font-size: 70PX;
 }
