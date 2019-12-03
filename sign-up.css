@@ -7,7 +7,7 @@
 /* this is tyling the forms to the center of the page*/
 body{
     font-family:'Montserrat', sans-serif ;
-    background: white;
+    background: palevioletred;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -44,6 +44,19 @@ a{
     margin: 15px 0;
 }
 
+#background {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 50%;
+    height: 100%;
+    background: yellow;
+    -webkit-clip-path: polygon(52% 0, 100% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(52% 0, 100% 0, 100% 100%, 0% 100%);
+    z-index: -1;
+    transition: all .8s ease;
+  }
+
 .maincontainer{
     background: white;
     border-radius: 10px;
@@ -53,10 +66,10 @@ a{
     overflow: hidden;
     margin: 6% auto;
     width: 1300px;
-    height: 1000px;
+    height: 1500px;
     max-width: 100% ;
-   flex: right 200px;
-   align-items: center;
+    flex: right 200px;
+    align-items: center;
 }
 
 /* this is tyling the container which wraps the entire form*/
@@ -71,8 +84,9 @@ a{
     transform: translate(-50%, -50%);
     overflow: hidden;
     width: 768px;
+    height: 968px;
     max-width: 100% ;
-    min-height: 480px;
+    min-height: 980px;
 }
 
 /* styling the shape of the form*/
@@ -118,7 +132,7 @@ a{
 .signupbtn{
     border-radius: 20px;
     border:1px solid #ff4b2b;
-    background: #ff4b2b ;
+    background:pink ;
     color: white;
     font-size: 12px;
     font-weight: bold;
@@ -142,7 +156,7 @@ a{
 #signUp{
     border-radius: 20px;
     border:1px solid white;
-    background: #ff416c ;
+    background: pink ;
     color: white;
     font-size: 12px;
     font-weight: bold;
@@ -154,7 +168,7 @@ a{
 .ghost{
     border-radius: 20px;
     border:1px solid white;
-    background: #ff416c ;
+    background: #purple ;
     color: white;
     font-size: 12px;
     font-weight: bold;
@@ -288,7 +302,7 @@ button.ghost {
     width: 200px;
     height: 100%;
     position: absolute;
-    background-color: black;
+    background-color: rgb(241, 125, 236);
     transition: .5s;
 }
 .sidenav a{

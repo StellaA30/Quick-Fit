@@ -4,6 +4,8 @@
         <title>QUICK FIT</title>
         <link rel="stylesheet" href="landing-pg.css">
         <link href="https://fonts.googleapis.com/css?family=Cabin&display=swap" rel="stylesheet">
+    
+        
     </head>
     <body>
 
@@ -11,13 +13,15 @@
 
          <div id="background"></div>
             <div class="container" id="container">
+<!--header-->
 
+             <header>
         <div class="sidenav" id="sidenav">
             <button type="button" name="button" id="closenav" onclick="closesidenav()">x</button>
             <a href="index.html">Home</a>
             <a href="About.html">About us</a>
-            <a href="body.html">Body</a>
-            <a href="sign-up.html">Sign up</a>
+            <a href="body.html"> Get Started</a>
+            <a href="sign-up-form.html">Sign up</a>
         </div>
         <div class="content">
             <button type="button" name="button" onclick="opensidenav()" id="openbutton">
@@ -25,77 +29,51 @@
                 <div class="menu"></div>
                 <div class="menu"></div></button>
         </div>
-        <div>
-            <h1>QUICK <div class=fit><b>FIT</b></div></h1> 
+<!--social icons-->
+
+   <!--     <ul class="navbar">
+                <img src="../Quick-Fit/twitter.svg" width="70px" height="70px">
+                <img src="instagram.svg" width="70px" height="70px">
+                </ul>   
+                -->
+                <div>
+                      <h1><span class='blinking'> QUICK</span> <div class=fit><b>FIT</b></div></h1> 
+                    </div> 
+                
+         </header>      
+          
+<!--main page-->
+        <div class="title"></div>
+
+        <div class="landing-box-1">
+                <div class="img-circular"></div>
+
+
         </div>
-
-
-<!--How can we add links to pages to the lists above?-->
-        <div id="container">
-
-                    <h1 class="new_year"> new  year new you!</h1>
-
-<!--The divs for the page layout-->
-
-                    
-            <div class="float-right " id="float-right">
-                <h1> Right</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Hic placeat blanditiis fuga eos dicta veniam totam maiores
-                    quibusdam enim perferendis!Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Hic placeat blanditiis fuga eos dicta veniam totam maiores
-                      quibusdam enim perferendis!Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                       Hic placeat blanditiis fuga eos dicta veniam totam maiores
-                       quibusdam enim perferendis!Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                       Hic placeat blanditiis fuga eos dicta veniam totam maiores
-                        quibusdam enim perferendis! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Hic placeat blanditiis fuga eos dicta veniam totam maiores
-                        quibusdam enim perferendis!Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                       Hic placeat blanditiis fuga eos dicta veniam totam maiores </p>    
-
-
-        <div class="mid">
-                <div class="cyclist"> 
-                        <img alt="Woman cycling" src="womanCycling.gif">
-                </div>
-            
-                <div class="hero"></div>
-                <div class="form-box">
-                    <p>Sign-up to our newsletter!</p>
-                    <form id="login" class="input-group">
-                        <input type="text" class="input-field" placeholder="First Name" required>
-                        <input type="text" class="input-field" placeholder="Surname" required>
-                        <input type="text" class="input-field" placeholder="Email" required>
-                        <input type="checkbox" class="check-box"><span>I agree to the terms & conditions</span>
-                        <button type="submit" class="submit-btn">SUBMIT</button>
-                    </form>
-
-
-      
         
+        <div class="landing-box-2">
+            <H2> We are a different kind of fitness company focusing 
+                on  workouts, likely to leave you smiling than crying with pain. 
+                 </H2> 
 
+                   <a href="body.html"><button id="landing-button"> Get Started</button></a>
+     
+             </div>
+             
 
-<!--Sign Up form-->
-
-            <div class="sign-up">
-                <h1> Get fit in a fun way! </h1>
-                <h3> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                     Quibusdam temporibus iure eligendi consequatur, dolor, accusantium commodi placeat, 
-                    ullam ducimus repellat inventore totam optio deserunt enim tempore quo facere? Ipsum, culpa!
-                . Quis?</h3>
-                   <br> <button> Get Started</button>
-
-            </div>
-        </div>
-
+             <div class="newsletter">
+                    <div id="newsletter-form">
+                        <!--<p>Sign up for our amazing newsletter now! </p>-->
+                        <input type="email" placeholder="Email"></input>
+                        <a href="#" id="newsletter-button">Sign Up &raquo;</a>
+                    </div>
+             </div>
+        
+            
 
 
         
 <!--Footer-->
-
-        <div class="bottom">
-                <p>Time to get fit - QUICK!</p>
-            </div>
             <footer id="main-footer">
                     <p> Copyright &copy; 2019, Quick Fit </p>
                   </footer>
