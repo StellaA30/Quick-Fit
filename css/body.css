@@ -254,7 +254,7 @@ img {
     text-align: center;
     font-size: 40px;
     padding: 0px 0px 20px 0px;
-    margin: 10px;
+    margin: -20px 0px 0px 0px;
 }
 .items {
     border: 5px dotted rgb(122, 3, 122);
@@ -277,6 +277,12 @@ h4 {
 }
 .info-text {
     font-size: 20px;
+}
+.ic-img {
+    width: 150px;
+    height: auto;
+    margin: 2px;
+    border-radius: 20px;
 }
 
 
