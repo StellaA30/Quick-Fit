@@ -53,22 +53,12 @@ h1{
 }
 /* navbar - to be added!!!*/
 
-
-/*text below navbar*/
-
-#exln {
-    text-align: center;
-    justify-content: center;
-    flex-wrap: center;
-    font-size: 20px;
-}
-
 .together {
     display: inline-flex;
     justify-content: center;
 }
 
-  /* ----------- */
+  /*Body*/
 .human-body {
     height: 260px;
     margin: 50px;
@@ -133,6 +123,7 @@ h1{
     color: black;
 }
 
+/* Info box next to body */
 .image-box {
     border: #f54291 solid 3px;
     width: 38%;
@@ -143,12 +134,13 @@ h1{
     padding: 20px;
     font-size: 30px;
 }
+/*contents of image box */
 h3 {
     text-align: center;
     justify-content: center;
     color: #6d0c74;
     margin: 0;
-    font-size: 50%;
+    font-size: 60%;
 }
 .intro-cont {
     margin: 5%;
@@ -181,7 +173,13 @@ img {
   align-self: center;
 }
 
-/* The Close Button */
+/*copyright*/
+.footer-cr {
+    justify-content: end;
+    text-align: end;
+}
+
+/* The Close Button - no longer needed*/
 .close {
   color: palevioletred;
   float: left;
@@ -197,6 +195,7 @@ img {
   text-decoration: none;
   cursor: pointer;
 }
+
 
 
 
