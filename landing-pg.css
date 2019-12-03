@@ -121,46 +121,79 @@ h3 {
     position:relative;
     display: block;
     width: 550px;
-    height: 460px;
-    top: 200px;
+    height: 360px;
+    top: 153px;
+    margin: 0;
     border: 5px black;
     background-image: url('womanCycling.gif');
     background-size: cover;
-    border: 5px solid black;
+    border: 5px dotted purple;
     box-shadow: 0px 0px 0px 10px yellow;
-    border-radius: 30%;
+    border-radius: 50%;
     -webkit-border-radius: 100px;
     -moz-border-radius: 100px;
     z-index: -100;
     left:-50px;
     text-align: right;
-   }
-
+    animation-name: example;
+    animation-duration: 20s;
+    animation-delay: 1s;
+    z-index: 200;
+  }
+  
+  @keyframes example {
+    0%   {background-color: red; left:0px;}
+    50%  {background-color: yellow; left:200px;}
+    100% {background-color: red; left:0px;}
+  }
+   
+.fit{
+    position: relative;
+    z-index:1;
+}
 .landing-box-2{
     background-color: white;
+    position:relative;
     display: inline-block;
-    width: 500px;
+    width: 900px;
     height: 400px;
     margin-left: 100px;
-    top: -50px;
-    z-index: 40;
+    top: -90px;
+    z-index: 1;
     position:relative;
     left:10px;
     border: 5px black;
-    border-radius: 30%;  
+    border-radius: 30%; 
+    text-align: center;
 }
 
 #landing-button{
     background-color: rgb(236, 20, 226);
     border: 5px solid black;
     color:white;
-    width: 400px;
+    width: 800px;
     height: 60px;
     font-weight: 400px;
     margin-left: 100px;
     top: 400px;
     text-align: center;
     box-shadow: 0px 0px 0px 10px yellow;
+    -webkit-transition: width 2s; 
+    transition: width 2s
+}
+#landing-button:hover{
+    width: 100px;
+}
+.blinking{
+    animation:blinkingText 0.8s infinite;
+    font-size: 70PX;
+}
+@keyframes blinkingText{
+	0%{		color:red;	}
+	49%{	color: transparent;	}
+	50%{	color: transparent;	}
+	99%{	color:transparent;	}
+	100%{	color: #000;	}
 }
 
 .newsletter{
@@ -170,8 +203,8 @@ h3 {
     height: 200px;
     margin-left: 100px;
     margin-right: 100px;
-    top: -20px;
-    z-index: 200;
+    top: -230px;
+    z-index: 600;
     position:relative;
     left:10px;  
     height: 100px;
@@ -193,6 +226,8 @@ h3 {
         box-shadow: 0px 0px 35px rgba(0,0,0,0.6);
         cursor: pointer;
         padding: 100px 80px;
+        top: -260px;
+
     }
     
     input[type='email']{
@@ -260,7 +295,6 @@ h3 {
             margin-top: 5px;
         }
     }
-
 /* Interactive Human Body */
 
 .human-body {
