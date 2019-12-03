@@ -74,7 +74,7 @@ for the box to write
         justify-content: center;
     }
 
-    p{
+    p {
         text-align:center;
         justify-content: center;
     }
@@ -179,6 +179,10 @@ for the box to write
             transform: rotate(90deg);
     }
     
+    .text {
+        margin: 20px;
+        padding: 3px;
+    }
     
     
     

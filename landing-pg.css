@@ -12,10 +12,10 @@ body {
     border-color: violet;
     box-shadow:0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     position: relative;
-    overflow: hidden;
+    overflow: auto;
     margin: 6% auto;
     width: 1168px;
-    height: 800px;
+    height: auto;
     max-width: 100% ;
     min-height: 900px;
    flex: right 200px;
@@ -174,7 +174,7 @@ h3 {
 
 #landing-button{
     background-color: rgb(241, 125, 236);
-    border: 5px dotted black;
+    border: 5px dotted #6d0c74;
     color:white;
     font-size: 30px;
     width: 800px;
@@ -191,15 +191,16 @@ h3 {
 }
 #landing-button:hover{
     width: 200px;
+    justify-content: center;
 }
 .blinking{
     position: relative;
-top: -50px;    
-    animation:blinkingText 0.8s infinite;
+    top: -50px;    
+    animation:blinkingText 0.9s infinite;
     font-size: 70PX;
 }
 @keyframes blinkingText{
-	0%{		color:red;	}
+	0%{		color:palevioletred;	}
 	49%{	color: transparent;	}
 	50%{	color: transparent;	}
 	99%{	color:transparent;	}
@@ -213,7 +214,7 @@ top: -50px;
     height: 200px;
     margin-left: 100px;
     margin-right: 100px;
-    top: -230px;
+    top: -100px;
     z-index: 600;
     position:relative;
     left:10px;  
@@ -282,8 +283,8 @@ top: -50px;
         text-align: center;
         border: 2px solid transparent;
         box-shadow: 0 7px 30px #f35464;
-        border: 2px solid red;
-        color: red;
+        border: 2px solid #6d0c74;
+        color: #6d0c74;
     }
     #button:hover{
         border: 2px solid rgb(23, 80, 235);
@@ -306,7 +307,7 @@ top: -50px;
         }
     }
 /* Interactive Human Body */
-
+/*
 .human-body {
     width: 207px;
     position: relative;
@@ -373,6 +374,7 @@ top: -50px;
 #area #data {
     color: black;
 }
+*/
 
 /* sidenav */
 
@@ -424,4 +426,8 @@ top: -50px;
 #openbutton{
     background-color: transparent;
     border: none;
+}
+#main-footer {
+    justify-content: end;
+    text-align: end;
 }

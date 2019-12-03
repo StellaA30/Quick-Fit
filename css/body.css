@@ -125,7 +125,8 @@ h1{
 
 /* Info box next to body */
 .image-box {
-    border: #f54291 solid 3px;
+    border: #6d0c74 dotted 3px;
+    box-shadow: 0px 0px 0px 10px yellow;
     width: 38%;
     height: 70%;
     margin: 50px;
@@ -140,15 +141,15 @@ h3 {
     justify-content: center;
     color: #6d0c74;
     margin: 0;
-    font-size: 60%;
+    font-size: 30px;
 }
 .intro-cont {
     margin: 5%;
-    font-size: 44%;
+    font-size: 20px;
 }
 .img-box-list {
     margin: 5%;
-    font-size: 40%;
+    font-size: 17px;
 }
 /* image format */
 img {
@@ -245,6 +246,37 @@ img {
 #openbutton{
     background-color: transparent;
     border: none;
+}
+
+/*Useful tips*/
+.rem {
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    padding: 0px 0px 20px 0px;
+    margin: 10px;
+}
+.items {
+    border: 5px dotted rgb(122, 3, 122);
+    box-shadow: 0px 0px 0px 10px  yellow;
+    border-radius: 25px;
+    text-align: center;
+    padding: 3px;
+    justify-content: space-evenly;
+    margin: 25px;
+    width: 200px;
+}
+.three-tips {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+h4 {
+    color: #6d0c74;
+    font-size: 25px;
+}
+.info-text {
+    font-size: 20px;
 }
 
 
