@@ -92,7 +92,7 @@ a{
 /* form inputs*/
 
 .form-container input{
-    background:yellow;
+    background:pink;
     border: none;
     padding: 12px 15px;
     margin:  8px 0;
@@ -162,7 +162,7 @@ button.ghost {
 /* slide over content effect*/
 
 .overlay{
-    background: #ff416c;
+    background: #ff4ae7;
     background: linear-gradient(to right,#ff4b3b,#ff416c) none 0 0 / cover;
     color: white;
     position: relative;
