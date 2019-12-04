@@ -339,7 +339,7 @@ button.ghost {
 .menu{
     width: 35px;
     height: 5px;
-    background-color: palevioletred;
+       background-color: palevioletred;
     margin: 6px 0;
 }
 #openbutton{
